@@ -1,6 +1,26 @@
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int numberOfPeople = 0;
+        Dish dish = new Dish();
+        dish.peoplesCalculator();
+        dish.calculator2();
+        dish.result();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
